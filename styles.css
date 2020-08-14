@@ -1,14 +1,15 @@
 .container {
     display: grid;
     grid-gap: 0.0rem;
-    width: 75%;
+    width: 50%;
     margin: 30px auto 0 auto;
-    margin-top: 30px;
+    border: 2px solid rgba(77, 148, 153, 0.39);
+    border-radius: 6px;
 }
 
 .div {
     border: 1px solid #cecece67;
-    padding: 1px;
+    border-radius: 1px;
     transition: 10ms;
 }
 
@@ -22,17 +23,17 @@
     background-color: rgb(51, 122, 118);
 }
 
-#clear {
+.button {
     border-radius: 5px;
     border: 1px solid pink;
     background-color: rgba(88, 14, 57, 0.2);
     font-weight: 600;
-    margin: auto;
+    margin: 10px auto 10px auto;
     width: 50%;
     height: 30px;
     display: block;
 }
 
-#clear:focus {
+.button:focus {
     outline: none;
 }
