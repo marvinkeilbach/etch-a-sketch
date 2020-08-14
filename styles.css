@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-gap: 0.0rem;
+    width: 75%;
+    margin: 30px auto 0 auto;
+    margin-top: 30px;
+}
+
+.div {
+    border: 1px solid #cecece67;
+    padding: 1px;
+    transition: 10ms;
+}
+
+.div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
+
+.changeColor {
+    background-color: rgb(51, 122, 118);
+}
+
+#clear {
+    border-radius: 5px;
+    border: 1px solid pink;
+    background-color: rgba(88, 14, 57, 0.2);
+    font-weight: 600;
+    margin: auto;
+    width: 50%;
+    height: 30px;
+    display: block;
+}
+
+#clear:focus {
+    outline: none;
+}
